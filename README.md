@@ -1,144 +1,137 @@
-<div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Felipe Rocha"/>
-</div>
+<!-- =========================================================
+Profile README — Felipe Rocha
+Repo: felipearocha/felipearocha
+Files recommended:
+- README.md (this file)
+- assets/banner.svg (animated banner below)
+========================================================== -->
 
-<br/>
+<p align="center">
+  <img src="assets/banner.svg" alt="Felipe Rocha — Asset Integrity | RBI | Data Engineering | Applied ML" width="100%" />
+</p>
 
-<table>
-<tr>
-<td width="62%" valign="top">
+<h1 align="center">Felipe Rocha <sub><sup>he/him</sup></sub></h1>
 
-## Felipe Rocha
+<p align="center">
+  Asset Integrity • RBI Decision Support • Data Engineering • Applied ML • Python Automation
+</p>
 
-Asset Integrity Engineer building decision-support systems at the intersection of **engineering judgment**, **data traceability**, and **applied machine learning**.
+<p align="center">
+  <a href="mailto:felipe@olivainternationaltech.com">felipe@olivainternationaltech.com</a> ·
+  <a href="https://www.linkedin.com/in/felipe-rocha-7a944b133/">LinkedIn</a> ·
+  <a href="https://github.com/felipearocha?tab=repositories">Repositories</a>
+</p>
 
-My work does not start with a model.
-It starts with a physical failure mechanism, a decision that needs to be made, and the minimum trustworthy system that delivers it reliably.
-
-That distinction drives everything I build.
-
-</td>
-<td width="38%" valign="top">
-
-<br/>
-```
-  Location    Remote
-  Focus       Asset Integrity · RBI
-  Stack       Python · SQL · Physics
-  Series      Integrity Code Series
-  Status    ● Open to collaborate
-```
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img alt="Remote" src="https://img.shields.io/badge/Remote-available-2ea44f?style=flat" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-automation%20%7C%20data%20%7C%20ML-blue?style=flat" />
+  <img alt="Focus" src="https://img.shields.io/badge/Focus-decision--support%20%26%20traceability-555?style=flat" />
+</p>
 
 ---
 
-<div align="center">
+### What I build
 
-![Python](https://img.shields.io/badge/Python-0A0A0C?style=for-the-badge&logo=python&logoColor=A0C3FF)
-![NumPy](https://img.shields.io/badge/NumPy-0A0A0C?style=for-the-badge&logo=numpy&logoColor=A0C3FF)
-![Pandas](https://img.shields.io/badge/Pandas-0A0A0C?style=for-the-badge&logo=pandas&logoColor=A0C3FF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A0C?style=for-the-badge&logo=postgresql&logoColor=A0C3FF)
-![Docker](https://img.shields.io/badge/Docker-0A0A0C?style=for-the-badge&logo=docker&logoColor=A0C3FF)
-![Git](https://img.shields.io/badge/Git-0A0A0C?style=for-the-badge&logo=git&logoColor=D21E1E)
+I build decision-support foundations for asset integrity and RBI programs—systems where **data quality, traceability, and defensibility** matter more than model complexity.
 
-</div>
+My work targets the real bottleneck: making engineering decisions **repeatable**, **auditable**, and **hard to game**—with explicit assumptions and visible failure modes.
 
 ---
 
-## What I Build
+### Core domains
 
-<table>
-<tr>
-<td width="25%" valign="top">
+**Integrity & RBI decision logic**
+- Degradation mechanisms, inspection effectiveness, PoF/CoF framing
+- Transparent rule sets + defensible risk narratives
+- Bridging the gap between standards and what the data truly supports
 
-**◈ Integrity & RBI Logic**
+**Data engineering for engineering sources**
+- Inspection history, equipment registers, corrosion reports, drawings/P&IDs metadata
+- Validation, lineage, and audit trails as first-class requirements
+- Schemas that reflect domain constraints (not generic ETL)
 
-Degradation mechanisms, inspection effectiveness, probability of failure reasoning, and consequence framing. The gap between what standards require and what data actually supports.
+**Applied ML within engineering constraints**
+- Models constrained by physics, bounds, and operational realities
+- Validation against engineering expectations (not just metrics)
+- Reproducible baselines before “clever” models
 
-</td>
-<td width="25%" valign="top">
-
-**◈ Engineering Data Systems**
-
-Structured extraction and validation pipelines for inspection history, P&IDs, equipment registers, and corrosion reports. Engineering data has domain constraints generic pipelines ignore.
-
-</td>
-<td width="25%" valign="top">
-
-**◈ Physics-First Simulation**
-
-Governing equations first. Numerical methods second. ML only when the physics cannot be solved analytically or when inverse problems require it. Boundary conditions always explicit.
-
-</td>
-<td width="25%" valign="top">
-
-**◈ Secure-by-Design Automation**
-
-In connected industrial environments, data integrity is an engineering risk, not an IT topic. Threat models and audit trails belong in the architecture from day one.
-
-</td>
-</tr>
-</table>
+**Secure-by-design engineering automation**
+- Connected environments make **data integrity an engineering risk**
+- Threat modeling, tamper evidence, and trustworthy pipelines by design
 
 ---
 
-## Integrity Code Series
+### Featured work
 
-Weekly physics-first engineering research packages.
-Governing equations → numerical implementation → validation → reproducible code.
-Each week escalates complexity in one dimension.
+<p align="center">
+  <a href="https://github.com/felipearocha/integrity-data-foundation">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=felipearocha&repo=integrity-data-foundation" alt="integrity-data-foundation" />
+  </a>
+  <a href="https://github.com/felipearocha/synthetic-integrity-digital-twin-piml">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=felipearocha&repo=synthetic-integrity-digital-twin-piml" alt="synthetic-integrity-digital-twin-piml" />
+  </a>
+</p>
 
-> Every equation is explicit. Every boundary condition is defined. Every output is reproducible.
-
----
-
-### Coming in ICS2
-
-![Status](https://img.shields.io/badge/-Weekly_Release-FFD732?style=flat-square&logoColor=black)
-
-Each week adds a new repository. Each increases complexity in one dimension: multiphysics coupling, inverse problem difficulty, uncertainty modeling, or cybersecurity integration.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/felipearocha/Integrity-code-series-3">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=felipearocha&repo=Integrity-code-series-3" alt="Integrity-code-series-3" />
+  </a>
+</p>
 
 ---
 
+### Integrity Code Series (physics-first)
+
+Short, reproducible engineering packages built around explicit governing equations, validation, and failure-mode visibility.
+
+| Entry | Topic | What’s inside |
+|------:|------|---------------|
+| 3 | F1 lap simulation | 6 coupled ODEs integrated along arc length; ERS logic; tyre thermal window; wear; reproducible run |
+| Next | In progress | Increasing complexity + cleaner validation harness |
 
 ---
 
-## Engineering Principles
-```
-Engineering judgment is not a gap to be automated away.
-It is the constraint that makes automation trustworthy.
+### Engineering principles (how I work)
 
-Data quality is not a preprocessing step.
-It is an engineering risk with measurable consequences.
-
-A model that cannot state its boundary conditions
-is not ready for an operational decision.
-
-Physics constrains ML.
-ML does not replace physics.
-```
+- **Assumptions must be explicit** or they will fail silently in production.
+- **Traceability is a technical feature**, not documentation after the fact.
+- **Data quality is an engineering risk**, not a preprocessing step.
+- **Operational decisions require defensibility**, not “best accuracy.”
 
 ---
 
-<div align="center">
+### Tooling & methods
 
-[![Email](https://img.shields.io/badge/felipe@olivainternationaltech.com-0A0A0C?style=for-the-badge&logo=gmail&logoColor=D21E1E)](mailto:felipe@olivainternationaltech.com) (https://img.shields.io/badge/feliper@infinitygrowth.ca-0A0A0C?style=for-the-badge&logo=gmail&logoColor=D21E1E)](mailto:ffeliper@infinitygrowth.ca) 
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0C?style=for-the-badge&logo=linkedin&logoColor=A0C3FF)](https://linkedin.com/in/felipe-rocha-7a944b133)
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/>
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white"/>
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white"/>
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white"/>
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+</p>
 
-<br/>
+---
 
-*Open to technical discussions on integrity digitalization, decision-support systems, and applied ML in industrial environments.*
+### Activity
 
-<br/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=felipearocha&show_icons=true&hide_title=true" alt="GitHub stats" />
+</p>
 
-<sub>INTEGRITY CODE SERIES &nbsp;·&nbsp; Physics-first engineering &nbsp;·&nbsp; 2026</sub>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=felipearocha" alt="GitHub streak" />
+</p>
 
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipearocha&layout=compact" alt="Top languages" />
+</p>
+
+---
+
+### Contact
+
+- Email: **feliper@infinitygrowth.ca** / **felipe@olivainternationaltech.com**
+- LinkedIn: **https://www.linkedin.com/in/felipe-rocha-7a944b133/**
+
+If you’re working on integrity digitalization, RBI decision support, or trustworthy applied ML in industrial systems, I’m open to technical discussions and collaboration.

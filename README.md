@@ -17,6 +17,7 @@ Files recommended:
 </p>
 
 <p align="center">
+  <a href="mailto:feliper@infinitygrowth.ca">feliper@infinitygrowth.ca</a>
   <a href="mailto:felipe@olivainternationaltech.com">felipe@olivainternationaltech.com</a> ·
   <a href="https://www.linkedin.com/in/felipe-rocha-7a944b133/">LinkedIn</a> ·
   <a href="https://github.com/felipearocha?tab=repositories">Repositories</a>

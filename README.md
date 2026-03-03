@@ -60,45 +60,6 @@ Automation reduces ambiguity, not accountability.
 
 ---
 
-## Core Domains
-
-### Integrity & RBI Decision Logic
-
-```python
-class DegradationModel:
-
-    def __init__(self, rate: float, uncertainty: float):
-        self.rate = max(rate, 0.0)
-        self.uncertainty = uncertainty
-
-    def adjusted_rate(self, inspection_effectiveness: float) -> float:
-        return self.rate * (1 - inspection_effectiveness)
-
-    def probability_of_failure(self, exposure_time: float) -> float:
-        adjusted = self.adjusted_rate(...)
-        return risk_transform(adjusted, exposure_time, self.uncertainty)
-```
-
-Design constraints:
-- No hidden parameters  
-- No silent normalization  
-- No implicit bounds  
-- Explicit uncertainty propagation  
-
----
-
-### Engineering Data Architecture
-
-```sql
-CREATE TABLE inspection_record (
-    asset_id VARCHAR(64) NOT NULL,
-    inspection_date DATE NOT NULL,
-    thickness_mm NUMERIC(6,3),
-    degradation_mechanism TEXT,
-    validated BOOLEAN DEFAULT FALSE,
-    PRIMARY KEY (asset_id, inspection_date)
-);
-```
 
 Architectural priorities:
 
@@ -110,63 +71,6 @@ Architectural priorities:
 
 Data quality is treated as an engineering risk variable.
 
----
-
-### Physics-Constrained Computation
-
-```python
-dV_ds  = longitudinal_force_balance(...)
-dAlpha = lateral_equilibrium(...)
-dT_dt  = thermal_response(...)
-dWear  = wear_model(...)
-```
-
-Process order:
-
-1. Define governing equations  
-2. Define boundary conditions  
-3. Select numerical method  
-4. Validate against physical expectations  
-5. Introduce ML only if system cannot be analytically closed  
-
-No parameter without justification.
-
----
-
-### Applied Machine Learning (Bounded)
-
-```text
-Model Output ⊂ Physical Feasibility Region
-```
-
-Requirements:
-
-- Explicit input domain  
-- Enforced output bounds  
-- Sensitivity analysis  
-- Out-of-distribution stress testing  
-- Documented model limitations  
-
-Accuracy alone is insufficient.
-
----
-
-### Secure-by-Design Automation
-
-```yaml
-system_properties:
-  deterministic_execution: true
-  reproducible_pipelines: true
-  trust_boundaries_defined: true
-  tamper_evident_transforms: true
-  decision_audit_trails: required
-```
-
-In connected industrial systems, data integrity becomes an engineering variable.
-
-Security is structural, not procedural.
-
----
 
 ## Technical Stack
 
@@ -179,7 +83,7 @@ Security is structural, not procedural.
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
 
-Primary language: **Python**  
+Primary language: **Python, HTML, Javascript**  
 Design emphasis: **Reproducibility • Auditability • Determinism**
 
 ---

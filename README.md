@@ -1,15 +1,82 @@
 ## Felipe Rocha
 
-Asset Integrity Engineer working at the intersection of engineering judgment, data systems, and applied machine learning.
+**Asset Integrity Specialist**
+Building decision-support systems where engineering judgment, data traceability,
+and applied ML intersect.
 
-I build decision-support foundations for integrity and risk-based inspection programs, where data quality, traceability, and trust matter more than model complexity. My focus is not “AI for AI’s sake”, but systems that reduce manual friction and improve the quality and defensibility of engineering decisions.
+---
 
-I work across:
-- Integrity and RBI decision logic (degradation mechanisms, inspection effectiveness, risk framing)
-- Data engineering for engineering sources (drawings, inspection history, structured outputs)
-- Automation that keeps assumptions explicit and failure modes visible
-- Applied ML that operates within engineering constraints, not outside them
+### What I do
 
-I am particularly interested in secure-by-design engineering automation, because connected environments turn data integrity into an engineering risk, not only an IT topic.
+I design and build the technical foundations that make integrity and risk-based
+inspection programs more defensible, less manual, and harder to game.
 
-If you are working on integrity digitalization, decision support, or applied ML in industrial systems, I am always open to technical discussions and collaboration.
+My work sits at the boundary between field engineering and software systems.
+The problems I care about are not "how do I apply ML to this" but "what does
+this decision actually require, and what is the minimum trustworthy system that
+delivers it reliably."
+
+That distinction drives everything I build.
+
+---
+
+### Technical focus
+
+**Asset integrity and RBI logic**
+Degradation mechanisms, inspection effectiveness, probability of failure
+reasoning, consequence framing, and the gap between what standards say
+and what data actually supports.
+
+**Data engineering for engineering sources**
+Inspection history, P&IDs, equipment registers, corrosion reports.
+Structured extraction, validation, lineage, and auditability.
+Engineering data has domain constraints that generic pipelines ignore.
+
+**Physics-informed simulation**
+Governing equations first. Numerical methods second. ML only when the
+physics cannot be closed-form solved or when inverse problems require it.
+Boundary conditions and assumptions are always explicit.
+
+**Applied ML within engineering constraints**
+Models that operate inside physical limits, not outside them.
+Failure modes documented. Validation against physics, not just holdout sets.
+No performance claims without reproducible baselines.
+
+**Secure-by-design engineering automation**
+In connected industrial environments, data integrity is an engineering risk,
+not only an IT topic. Threat models, audit trails, and tamper detection
+belong in the architecture from day one.
+
+---
+
+### Current work — INTEGRITY CODE SERIES
+
+Weekly physics-first engineering research and simulation packages.
+Each week: governing equations, numerical implementation, validation,
+cybersecurity considerations, and reproducible code.
+
+All outputs are reproducible. All equations are explicit.
+No hype. No undefined terms.
+
+---
+
+### Principles
+
+Engineering judgment is not a gap to be automated away.
+It is the constraint that makes automation trustworthy.
+
+Data quality is not a preprocessing step.
+It is an engineering risk with consequences.
+
+A model that cannot explain its boundary conditions
+is not ready for an operational decision.
+
+---
+
+### Contact
+
+**Email** felipe@olivainternationaltech.com / feliper@infinitygrowth.ca
+**LinkedIn** [felipe-rocha-7a944b133](https://linkedin.com/in/felipe-rocha-7a944b133)
+
+Open to technical discussions on integrity digitalization,
+decision support systems, and applied ML in industrial environments.

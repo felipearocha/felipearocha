@@ -91,62 +91,9 @@ Weekly physics-first engineering research packages.
 Governing equations → numerical implementation → validation → reproducible code.
 Each week escalates complexity in one dimension.
 
-<br/>
-
-| # | Topic | Core Physics | Code |
-|---|-------|-------------|------|
-| `W3` | **F1 Lap Simulation** | 6-state coupled ODE · Gaussian thermal grip · ERS SOC gate · space-marched integration | [![Repo](https://img.shields.io/badge/view_repo-0A0A0C?style=flat-square&logo=github&logoColor=white)](https://github.com/felipearocha/Integrity-code-series-3) |
-| `W4` | **Pipeline Corrosion** | Electrochemical kinetics · CO₂ transport · wall thickness ODE | 🔄 In Progress |
-| `W5+` | **Escalating complexity** | Multiphysics coupling · inverse problems · uncertainty quantification | 📋 Planned |
-
 > Every equation is explicit. Every boundary condition is defined. Every output is reproducible.
 
 ---
-
-## Repositories
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [Integrity-code-series-3](https://github.com/felipearocha/Integrity-code-series-3)
-
-![Python](https://img.shields.io/badge/-Python-0A0A0C?style=flat-square&logo=python&logoColor=A0C3FF)
-![Physics](https://img.shields.io/badge/-Physics--First-D21E1E?style=flat-square&logoColor=white)
-![W3](https://img.shields.io/badge/-ICS2_Week_3-1A1A2E?style=flat-square&logoColor=white)
-
-F1 lap simulation. Six coupled ODEs along arc length. Gaussian tyre thermal window. ERS regen/deploy gate logic. 1600-node space-marched integration.
-```python
-python run_all.py
-# validates physics
-# runs 1600-node lap
-# generates 5 figures + animated GIF
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [integrity-data-foundation](https://github.com/felipearocha/integrity-data-foundation)
-
-![Python](https://img.shields.io/badge/-Python-0A0A0C?style=flat-square&logo=python&logoColor=A0C3FF)
-![RBI](https://img.shields.io/badge/-RBI_Logic-1A1A2E?style=flat-square&logoColor=A0C3FF)
-
-Engineering-first data validation and structuring baselines for integrity and RBI decision support. Built for the quality constraints that engineering data sources actually impose.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [synthetic-integrity-digital-twin-piml](https://github.com/felipearocha/synthetic-integrity-digital-twin-piml)
-
-![Python](https://img.shields.io/badge/-Python-0A0A0C?style=flat-square&logo=python&logoColor=A0C3FF)
-![PIML](https://img.shields.io/badge/-Physics--Informed_ML-00E678?style=flat-square&logoColor=black)
-
-Physics-informed ML for integrity digital twin problems. Governing equations constrain the model. Failure modes documented. Validation against physics, not only holdout sets.
-
-</td>
-<td width="50%" valign="top">
 
 ### Coming in ICS2
 

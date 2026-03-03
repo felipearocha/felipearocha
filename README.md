@@ -107,21 +107,6 @@ Each week adds a new repository. Each increases complexity in one dimension: mul
 
 ---
 
-## Activity
-
-<div align="center">
-
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=felipearocha&show_icons=true&theme=transparent&title_color=A0C3FF&text_color=787880&icon_color=D21E1E&border_color=1A1A2E&include_all_commits=true&count_private=true"/>
-&nbsp;&nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipearocha&layout=compact&theme=transparent&title_color=A0C3FF&text_color=787880&border_color=1A1A2E"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=felipearocha&theme=react-dark&bg_color=0A0A0C&color=A0C3FF&line=D21E1E&point=FFD732&area=true&hide_border=true" width="100%"/>
-
-</div>
 
 ---
 
@@ -144,7 +129,7 @@ ML does not replace physics.
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/felipe@olivainternationaltech.com-0A0A0C?style=for-the-badge&logo=gmail&logoColor=D21E1E)](mailto:felipe@olivainternationaltech.com)
+[![Email](https://img.shields.io/badge/felipe@olivainternationaltech.com-0A0A0C?style=for-the-badge&logo=gmail&logoColor=D21E1E)](mailto:felipe@olivainternationaltech.com) (https://img.shields.io/badge/feliper@infinitygrowth.ca-0A0A0C?style=for-the-badge&logo=gmail&logoColor=D21E1E)](mailto:ffeliper@infinitygrowth.ca) 
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0C?style=for-the-badge&logo=linkedin&logoColor=A0C3FF)](https://linkedin.com/in/felipe-rocha-7a944b133)
 

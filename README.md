@@ -1,138 +1,212 @@
 <!-- =========================================================
-Profile README — Felipe Rocha
-Repo: felipearocha/felipearocha
-Files recommended:
-- README.md (this file)
-- assets/banner.svg (animated banner below)
+Felipe Rocha — Profile README
+High-clarity | Professional | Engineering-first
 ========================================================== -->
 
-<p align="center">
-  <img src="assets/banner.svg" alt="Felipe Rocha — Asset Integrity | RBI | Data Engineering | Applied ML" width="100%" />
-</p>
-
-<h1 align="center">Felipe Rocha <sub><sup>he/him</sup></sub></h1>
+<h1 align="center">Felipe Rocha</h1>
 
 <p align="center">
-  Asset Integrity • RBI Decision Support • Data Engineering • Applied ML • Python Automation
+  <strong>Asset Integrity Engineer</strong><br/>
+  RBI Decision Systems • Engineering Data Architecture • Physics-Constrained ML • Secure Automation
 </p>
 
 <p align="center">
-  <a href="mailto:feliper@infinitygrowth.ca">feliper@infinitygrowth.ca</a>
-  <a href="mailto:felipe@olivainternationaltech.com">felipe@olivainternationaltech.com</a> ·
-  <a href="https://www.linkedin.com/in/felipe-rocha-7a944b133/">LinkedIn</a> ·
-  <a href="https://github.com/felipearocha?tab=repositories">Repositories</a>
-</p>
-
-<p align="center">
-  <img alt="Remote" src="https://img.shields.io/badge/Remote-available-2ea44f?style=flat" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-automation%20%7C%20data%20%7C%20ML-blue?style=flat" />
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-decision--support%20%26%20traceability-555?style=flat" />
-</p>
-
----
-
-### What I build
-
-I build decision-support foundations for asset integrity and RBI programs—systems where **data quality, traceability, and defensibility** matter more than model complexity.
-
-My work targets the real bottleneck: making engineering decisions **repeatable**, **auditable**, and **hard to game**—with explicit assumptions and visible failure modes.
-
----
-
-### Core domains
-
-**Integrity & RBI decision logic**
-- Degradation mechanisms, inspection effectiveness, PoF/CoF framing
-- Transparent rule sets + defensible risk narratives
-- Bridging the gap between standards and what the data truly supports
-
-**Data engineering for engineering sources**
-- Inspection history, equipment registers, corrosion reports, drawings/P&IDs metadata
-- Validation, lineage, and audit trails as first-class requirements
-- Schemas that reflect domain constraints (not generic ETL)
-
-**Applied ML within engineering constraints**
-- Models constrained by physics, bounds, and operational realities
-- Validation against engineering expectations (not just metrics)
-- Reproducible baselines before “clever” models
-
-**Secure-by-design engineering automation**
-- Connected environments make **data integrity an engineering risk**
-- Threat modeling, tamper evidence, and trustworthy pipelines by design
-
----
-
-### Featured work
-
-<p align="center">
-  <a href="https://github.com/felipearocha/integrity-data-foundation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=felipearocha&repo=integrity-data-foundation" alt="integrity-data-foundation" />
+  <a href="mailto:feliper@infinitygrowth.ca">
+    <img src="https://img.shields.io/badge/Email-Contact-informational?style=for-the-badge&logo=gmail">
   </a>
-  <a href="https://github.com/felipearocha/synthetic-integrity-digital-twin-piml">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=felipearocha&repo=synthetic-integrity-digital-twin-piml" alt="synthetic-integrity-digital-twin-piml" />
+  <a href="https://www.linkedin.com/in/felipe-rocha-7a944b133/">
+    <img src="https://img.shields.io/badge/LinkedIn-Professional-blue?style=for-the-badge&logo=linkedin">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/felipearocha/Integrity-code-series-3">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=felipearocha&repo=Integrity-code-series-3" alt="Integrity-code-series-3" />
-  </a>
+  <img src="https://img.shields.io/badge/Focus-Integrity%20%26%20RBI-1f6feb?style=flat-square">
+  <img src="https://img.shields.io/badge/Architecture-Traceable%20Systems-238636?style=flat-square">
+  <img src="https://img.shields.io/badge/Philosophy-Engineering--First-8250df?style=flat-square">
+  <img src="https://img.shields.io/badge/Security-Secure%20by%20Design-d73a49?style=flat-square">
 </p>
 
 ---
 
-### Integrity Code Series (physics-first)
+## Engineering Profile
 
-Short, reproducible engineering packages built around explicit governing equations, validation, and failure-mode visibility.
+I design and implement decision-support systems for asset integrity and risk-based inspection (RBI) programs.
 
-| Entry | Topic | What’s inside |
-|------:|------|---------------|
-| 3 | F1 lap simulation | 6 coupled ODEs integrated along arc length; ERS logic; tyre thermal window; wear; reproducible run |
-| Next | In progress | Increasing complexity + cleaner validation harness |
+My work operates at the boundary between engineering judgment, structured data systems, and applied machine learning. The objective is not algorithmic novelty — the objective is defensible operational decisions.
 
----
+Systems are built to ensure:
 
-### Engineering principles (how I work)
-
-- **Assumptions must be explicit** or they will fail silently in production.
-- **Traceability is a technical feature**, not documentation after the fact.
-- **Data quality is an engineering risk**, not a preprocessing step.
-- **Operational decisions require defensibility**, not “best accuracy.”
+- Explicit assumptions  
+- Transparent transformation logic  
+- Inspectable data lineage  
+- Bounded model behavior  
+- Visible failure modes  
 
 ---
 
-### Tooling & methods
+## System Architecture Philosophy
+
+```mermaid
+flowchart TD
+    A[Physical Reality] --> B[Structured Engineering Data]
+    B --> C[Explicit Domain Logic]
+    C --> D[Physics / Risk Framing]
+    D --> E[Validation Harness]
+    E --> F[Operational Decision Support]
+```
+
+Engineering judgment is preserved — not replaced.  
+Automation reduces ambiguity, not accountability.
+
+---
+
+## Core Domains
+
+### Integrity & RBI Decision Logic
+
+```python
+class DegradationModel:
+
+    def __init__(self, rate: float, uncertainty: float):
+        self.rate = max(rate, 0.0)
+        self.uncertainty = uncertainty
+
+    def adjusted_rate(self, inspection_effectiveness: float) -> float:
+        return self.rate * (1 - inspection_effectiveness)
+
+    def probability_of_failure(self, exposure_time: float) -> float:
+        adjusted = self.adjusted_rate(...)
+        return risk_transform(adjusted, exposure_time, self.uncertainty)
+```
+
+Design constraints:
+- No hidden parameters  
+- No silent normalization  
+- No implicit bounds  
+- Explicit uncertainty propagation  
+
+---
+
+### Engineering Data Architecture
+
+```sql
+CREATE TABLE inspection_record (
+    asset_id VARCHAR(64) NOT NULL,
+    inspection_date DATE NOT NULL,
+    thickness_mm NUMERIC(6,3),
+    degradation_mechanism TEXT,
+    validated BOOLEAN DEFAULT FALSE,
+    PRIMARY KEY (asset_id, inspection_date)
+);
+```
+
+Architectural priorities:
+
+- Schemas aligned with physical meaning  
+- Validation at ingestion  
+- Deterministic transformations  
+- Version-controlled logic  
+- Full audit trail  
+
+Data quality is treated as an engineering risk variable.
+
+---
+
+### Physics-Constrained Computation
+
+```python
+dV_ds  = longitudinal_force_balance(...)
+dAlpha = lateral_equilibrium(...)
+dT_dt  = thermal_response(...)
+dWear  = wear_model(...)
+```
+
+Process order:
+
+1. Define governing equations  
+2. Define boundary conditions  
+3. Select numerical method  
+4. Validate against physical expectations  
+5. Introduce ML only if system cannot be analytically closed  
+
+No parameter without justification.
+
+---
+
+### Applied Machine Learning (Bounded)
+
+```text
+Model Output ⊂ Physical Feasibility Region
+```
+
+Requirements:
+
+- Explicit input domain  
+- Enforced output bounds  
+- Sensitivity analysis  
+- Out-of-distribution stress testing  
+- Documented model limitations  
+
+Accuracy alone is insufficient.
+
+---
+
+### Secure-by-Design Automation
+
+```yaml
+system_properties:
+  deterministic_execution: true
+  reproducible_pipelines: true
+  trust_boundaries_defined: true
+  tamper_evident_transforms: true
+  decision_audit_trails: required
+```
+
+In connected industrial systems, data integrity becomes an engineering variable.
+
+Security is structural, not procedural.
+
+---
+
+## Technical Stack
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/>
-  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white"/>
-  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white"/>
-  <img alt="SQL" src="https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white"/>
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn">
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
+
+Primary language: **Python**  
+Design emphasis: **Reproducibility • Auditability • Determinism**
 
 ---
 
-### Activity
+## Engineering Principles
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=felipearocha&show_icons=true&hide_title=true" alt="GitHub stats" />
-</p>
+```text
+If an assumption is not written, it will fail silently.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=felipearocha" alt="GitHub streak" />
-</p>
+If data lineage is not explicit, the decision is not defensible.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipearocha&layout=compact" alt="Top languages" />
-</p>
+If a model cannot define its boundary conditions,
+it is not operational.
+```
 
 ---
 
-### Contact
+## Contact
 
-- Email: **feliper@infinitygrowth.ca** / **felipe@olivainternationaltech.com**
-- LinkedIn: **https://www.linkedin.com/in/felipe-rocha-7a944b133/**
+feliper@infinitygrowth.ca  
+felipe@olivainternationaltech.com  
+https://www.linkedin.com/in/felipe-rocha-7a944b133/
 
-If you’re working on integrity digitalization, RBI decision support, or trustworthy applied ML in industrial systems, I’m open to technical discussions and collaboration.
+Open to technical discussions involving:
+
+- Asset integrity digitalization  
+- RBI architecture  
+- Physics-informed modeling  
+- Engineering-grade automation  
+- Secure industrial data systems  

@@ -101,6 +101,43 @@ it is not operational.
 
 ---
 
+## Integrity Code Series
+
+Open-source physics-first integrity simulators. Each entry is a self-contained Python package with governing PDEs/ODEs documented in code, analytical benchmarks against textbook constants, a Monte Carlo layer over the deterministic model, and a `run_all.py` entry point that reproduces every figure.
+
+| # | Repo | Domain |
+|---|---|---|
+| Week 3  | [Integrity-code-series-3](https://github.com/felipearocha/Integrity-code-series-3) | F1 lap simulation (six coupled ODEs) |
+| Week 6  | [Integrity-code-series-week6-smartphone-galvanic](https://github.com/felipearocha/Integrity-code-series-week6-smartphone-galvanic) | Smartphone galvanic corrosion (Laplace + Butler-Volmer) |
+| Week 7  | [integrity_code_series_week7_h2_lferw](https://github.com/felipearocha/integrity_code_series_week7_h2_lferw) | LF-ERW H2 conversion (B31.12 + NACE TM0316) |
+| Week 8  | [integrity-code-series-week8-creep-fatigue-heater](https://github.com/felipearocha/integrity-code-series-week8-creep-fatigue-heater) | Creep-fatigue 9Cr-1Mo (Norton/Omega + Coffin-Manson) |
+| Week 9  | [integrity-code-series-week9-cui](https://github.com/felipearocha/integrity-code-series-week9-cui) | CUI thermohygro-electrochemical (3 PDEs, Strang) |
+| Week 10 | [integrity-code-series-week-10_nnph_scc](https://github.com/felipearocha/integrity-code-series-week-10_nnph_scc) | NNpHSCC full-physics (Chen-Sutherby-Xing + BS 7910) |
+| Bonus   | [Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation](https://github.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation) | Vibration-accelerated corrosion (SDOF + Butler-Volmer + Archard) |
+| Bonus   | [synthetic-integrity-digital-twin-piml](https://github.com/felipearocha/synthetic-integrity-digital-twin-piml) | Physics-informed neural-network surrogate |
+| Bonus   | [integrity-data-foundation](https://github.com/felipearocha/integrity-data-foundation) | Engineering data validation baseline |
+
+Live status dashboard: [integrity-code-series-dashboard](https://github.com/felipearocha/integrity-code-series-dashboard) — auto-refreshed monthly.
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <a href="https://github.com/felipearocha">
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=felipearocha&show_icons=true&theme=default&hide_border=true&count_private=true">
+  </a>
+  <a href="https://github.com/felipearocha">
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipearocha&layout=compact&theme=default&hide_border=true&langs_count=8">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=felipearocha&theme=default&hide_border=true">
+</p>
+
+---
+
 ## Contact
 
 feliper@infinitygrowth.ca  

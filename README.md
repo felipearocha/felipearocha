@@ -107,12 +107,13 @@ Open-source physics-first integrity simulators. Each entry is a self-contained P
 
 | # | Repo | Domain | DOI |
 |---|---|---|---|
-| Week 3  | [Integrity-code-series-3](https://github.com/felipearocha/Integrity-code-series-3) | F1 lap simulation (six coupled ODEs) | — |
-| Week 6  | [Integrity-code-series-week6-smartphone-galvanic](https://github.com/felipearocha/Integrity-code-series-week6-smartphone-galvanic) | Smartphone galvanic corrosion (Laplace + Butler-Volmer) | [`10.5281/zenodo.20172479`](https://doi.org/10.5281/zenodo.20172479) |
-| Week 7  | [integrity_code_series_week7_h2_lferw](https://github.com/felipearocha/integrity_code_series_week7_h2_lferw) | LF-ERW H2 conversion (B31.12 + NACE TM0316) | [`10.5281/zenodo.20172481`](https://doi.org/10.5281/zenodo.20172481) |
+| Week 3  | [integrity-code-series-week3-f1-lap-simulation](https://github.com/felipearocha/integrity-code-series-week3-f1-lap-simulation) | F1 lap simulation (six coupled ODEs) | — |
+| Week 6  | [integrity-code-series-week6-smartphone-galvanic](https://github.com/felipearocha/integrity-code-series-week6-smartphone-galvanic) | Smartphone galvanic corrosion (Laplace + Butler-Volmer) | [`10.5281/zenodo.20172479`](https://doi.org/10.5281/zenodo.20172479) |
+| Week 7  | [integrity-code-series-week7-h2-lferw](https://github.com/felipearocha/integrity-code-series-week7-h2-lferw) | LF-ERW H2 conversion (B31.12 + NACE TM0316) | [`10.5281/zenodo.20172481`](https://doi.org/10.5281/zenodo.20172481) |
 | Week 8  | [integrity-code-series-week8-creep-fatigue-heater](https://github.com/felipearocha/integrity-code-series-week8-creep-fatigue-heater) | Creep-fatigue 9Cr-1Mo (Norton/Omega + Coffin-Manson) | [`10.5281/zenodo.20172467`](https://doi.org/10.5281/zenodo.20172467) |
 | Week 9  | [integrity-code-series-week9-cui](https://github.com/felipearocha/integrity-code-series-week9-cui) | CUI thermohygro-electrochemical (3 PDEs, Strang) | [`10.5281/zenodo.20172508`](https://doi.org/10.5281/zenodo.20172508) |
-| Week 10 | [integrity-code-series-week-10_nnph_scc](https://github.com/felipearocha/integrity-code-series-week-10_nnph_scc) | NNpHSCC full-physics (Chen-Sutherby-Xing + BS 7910) | [`10.5281/zenodo.20172241`](https://doi.org/10.5281/zenodo.20172241) |
+| Week 10 | [integrity-code-series-week10-nnph-scc](https://github.com/felipearocha/integrity-code-series-week10-nnph-scc) | NNpHSCC full-physics (Chen-Sutherby-Xing + BS 7910) | [`10.5281/zenodo.20172241`](https://doi.org/10.5281/zenodo.20172241) |
+| Week 11 | [integrity-code-series-week11-erosion-corrosion-multiphase](https://github.com/felipearocha/integrity-code-series-week11-erosion-corrosion-multiphase) | Erosion-corrosion multiphase (NORSOK M-506 + DNV-RP-O501 + G119 + API 579) | [`10.5281/zenodo.21114866`](https://doi.org/10.5281/zenodo.21114866) |
 | Bonus   | [Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation](https://github.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation) | Vibration-accelerated corrosion (SDOF + Butler-Volmer + Archard) | [`10.5281/zenodo.20172485`](https://doi.org/10.5281/zenodo.20172485) |
 | Bonus   | [synthetic-integrity-digital-twin-piml](https://github.com/felipearocha/synthetic-integrity-digital-twin-piml) | Physics-informed neural-network surrogate | [`10.5281/zenodo.20172483`](https://doi.org/10.5281/zenodo.20172483) |
 | Bonus   | [integrity-data-foundation](https://github.com/felipearocha/integrity-data-foundation) | Engineering data validation baseline | — |

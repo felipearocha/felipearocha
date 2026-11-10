@@ -11,7 +11,7 @@ Audience: technical peers · engineering-first · standards-traceable
 
 <p align="center">
   <em>Open-source integrity simulators with governing equations documented in code,<br/>
-  analytical benchmarks against textbook constants, and DOI-archived releases.</em>
+  hand-calc benchmarks, stated limitations, and DOI-archived releases.</em>
 </p>
 
 <!-- Metrics band (every number is verifiable) -->
@@ -71,17 +71,32 @@ Self-contained, physics-first integrity simulators. Each one documents its gover
 
 > **Live status:** [integrity-code-series-dashboard](https://github.com/felipearocha/integrity-code-series-dashboard) — CI, releases and last-push, auto-refreshed monthly.
 
+### Featured results
+
+<table>
+  <tr>
+    <td width="50%" align="center"><a href="https://github.com/felipearocha/integrity-code-series-week11-erosion-corrosion-multiphase"><img src="https://raw.githubusercontent.com/felipearocha/integrity-code-series-week11-erosion-corrosion-multiphase/main/assets/hero_erosion_corrosion_week11.png" alt="Week 11 · wall-loss field on a multiphase elbow" width="100%"></a><br><sub>Week 11 · wall-loss field on a multiphase elbow</sub></td>
+    <td width="50%" align="center"><a href="https://github.com/felipearocha/integrity-code-series-week7-h2-lferw"><img src="https://raw.githubusercontent.com/felipearocha/integrity-code-series-week7-h2-lferw/main/assets/hero_h2_crack.png" alt="Week 7 · hydrogen field and crack growth at an ERW seam" width="100%"></a><br><sub>Week 7 · hydrogen field and crack growth at an ERW seam</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://github.com/felipearocha/integrity-code-series-week6-smartphone-galvanic"><img src="https://raw.githubusercontent.com/felipearocha/integrity-code-series-week6-smartphone-galvanic/main/assets/hero_potential_current.png" alt="Week 6 · potential and current density in a USB-C port" width="100%"></a><br><sub>Week 6 · potential and current density in a USB-C port</sub></td>
+    <td width="50%" align="center"><a href="https://github.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation"><img src="https://raw.githubusercontent.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation/main/assets/hero_3d_cr_surface.png" alt="Vibration · corrosion-rate surface at a pipe support" width="100%"></a><br><sub>Vibration · corrosion-rate surface at a pipe support</sub></td>
+  </tr>
+</table>
+
+### All packages
+
 | # | Repository | Domain | Tests | Key standards / methods | DOI |
 |---|---|---|:---:|---|---|
-| **11** ⭐ | [erosion-corrosion-multiphase](https://github.com/felipearocha/integrity-code-series-week11-erosion-corrosion-multiphase) | Coupled erosion-corrosion at a multiphase elbow | **471** | NORSOK M-506 · DNV-RP-O501 · ASTM G119 · API 571 / 579 | [10.5281/zenodo.21114866](https://doi.org/10.5281/zenodo.21114866) |
-| 10 | [nnph-scc](https://github.com/felipearocha/integrity-code-series-week10-nnph-scc) | Near-neutral-pH stress-corrosion cracking | 219 | Chen–Sutherby–Xing · BS 7910 · API 579 · Bayesian inspection planning | [10.5281/zenodo.20172241](https://doi.org/10.5281/zenodo.20172241) |
-| 9 | [cui](https://github.com/felipearocha/integrity-code-series-week9-cui) | Corrosion under insulation (thermo-hygro-electrochemical) | 156 | 2 PDEs + Butler–Volmer · Strang splitting · DFOS inverse | [10.5281/zenodo.20172508](https://doi.org/10.5281/zenodo.20172508) |
-| 8 | [creep-fatigue-heater](https://github.com/felipearocha/integrity-code-series-week8-creep-fatigue-heater) | Creep-fatigue in fired-heater tubes (9Cr-1Mo) | 333 | ASME III-5 · Norton/Omega · Coffin–Manson | [10.5281/zenodo.20172467](https://doi.org/10.5281/zenodo.20172467) |
-| 7 | [h2-lferw](https://github.com/felipearocha/integrity-code-series-week7-h2-lferw) | Hydrogen conversion of vintage LF-ERW pipe | 191 | H diffusion · HA-FCG · B31.12-form MAOP | [10.5281/zenodo.20172481](https://doi.org/10.5281/zenodo.20172481) |
-| 6 | [smartphone-galvanic](https://github.com/felipearocha/integrity-code-series-week6-smartphone-galvanic) | Galvanic corrosion in a thin electrolyte film | 43 | Laplace 2D · Butler–Volmer · oxide growth | [10.5281/zenodo.20172479](https://doi.org/10.5281/zenodo.20172479) |
+| **11** ⭐ | [erosion-corrosion-multiphase](https://github.com/felipearocha/integrity-code-series-week11-erosion-corrosion-multiphase) | Coupled erosion-corrosion at a multiphase elbow | **471** | NORSOK M-506 · DNV-RP-O501 · ASTM G119 · API 571 / 579 | <a href="https://doi.org/10.5281/zenodo.21114866"><img src="https://img.shields.io/badge/DOI-zenodo.21114866-1682D4" alt="DOI 10.5281/zenodo.21114866"></a> |
+| 10 | [nnph-scc](https://github.com/felipearocha/integrity-code-series-week10-nnph-scc) | Near-neutral-pH stress-corrosion cracking | 219 | Chen–Sutherby–Xing · BS 7910 · API 579 · Bayesian inspection planning | <a href="https://doi.org/10.5281/zenodo.20172241"><img src="https://img.shields.io/badge/DOI-zenodo.20172241-1682D4" alt="DOI 10.5281/zenodo.20172241"></a> |
+| 9 | [cui](https://github.com/felipearocha/integrity-code-series-week9-cui) | Corrosion under insulation (thermo-hygro-electrochemical) | 156 | 2 PDEs + Butler–Volmer · Strang splitting · DFOS inverse | <a href="https://doi.org/10.5281/zenodo.20172508"><img src="https://img.shields.io/badge/DOI-zenodo.20172508-1682D4" alt="DOI 10.5281/zenodo.20172508"></a> |
+| 8 | [creep-fatigue-heater](https://github.com/felipearocha/integrity-code-series-week8-creep-fatigue-heater) | Creep-fatigue in fired-heater tubes (9Cr-1Mo) | 333 | ASME III-5 · Norton/Omega · Coffin–Manson | <a href="https://doi.org/10.5281/zenodo.20172467"><img src="https://img.shields.io/badge/DOI-zenodo.20172467-1682D4" alt="DOI 10.5281/zenodo.20172467"></a> |
+| 7 | [h2-lferw](https://github.com/felipearocha/integrity-code-series-week7-h2-lferw) | Hydrogen conversion of vintage LF-ERW pipe | 191 | H diffusion · HA-FCG · B31.12-form MAOP | <a href="https://doi.org/10.5281/zenodo.20172481"><img src="https://img.shields.io/badge/DOI-zenodo.20172481-1682D4" alt="DOI 10.5281/zenodo.20172481"></a> |
+| 6 | [smartphone-galvanic](https://github.com/felipearocha/integrity-code-series-week6-smartphone-galvanic) | Galvanic corrosion in a thin electrolyte film | 43 | Laplace 2D · Butler–Volmer · oxide growth | <a href="https://doi.org/10.5281/zenodo.20172479"><img src="https://img.shields.io/badge/DOI-zenodo.20172479-1682D4" alt="DOI 10.5281/zenodo.20172479"></a> |
 | 3 | [f1-lap-simulation](https://github.com/felipearocha/integrity-code-series-week3-f1-lap-simulation) | F1 lap dynamics (six-state model) | 13 | arc-length ODE integration · thermal grip window | — |
-| ⭐ | [synthetic-integrity-digital-twin-**piml**](https://github.com/felipearocha/synthetic-integrity-digital-twin-piml) | Physics-informed NN surrogate for an integrity digital twin | 5 | PINN-style demo · Paris-type rollout · soft-penalty constraints | [10.5281/zenodo.20172483](https://doi.org/10.5281/zenodo.20172483) |
-| ◆ | [vibration-accelerated-corrosion](https://github.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation) | Vibration-accelerated corrosion at pipe supports | 31 | SDOF · stress-modified Butler–Volmer · Archard | [10.5281/zenodo.20172485](https://doi.org/10.5281/zenodo.20172485) |
+| ◆ | [synthetic-integrity-digital-twin-**piml**](https://github.com/felipearocha/synthetic-integrity-digital-twin-piml) | Physics-informed NN surrogate for an integrity digital twin | 5 | PINN-style demo · Paris-type rollout · soft-penalty constraints | <a href="https://doi.org/10.5281/zenodo.20172483"><img src="https://img.shields.io/badge/DOI-zenodo.20172483-1682D4" alt="DOI 10.5281/zenodo.20172483"></a> |
+| ◆ | [vibration-accelerated-corrosion](https://github.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation) | Vibration-accelerated corrosion at pipe supports | 31 | SDOF · stress-modified Butler–Volmer · Archard | <a href="https://doi.org/10.5281/zenodo.20172485"><img src="https://img.shields.io/badge/DOI-zenodo.20172485-1682D4" alt="DOI 10.5281/zenodo.20172485"></a> |
 | ◆ | [integrity-data-foundation](https://github.com/felipearocha/integrity-data-foundation) | Engineering-first data validation baseline for RBI | 7 | rule-based validation · deterministic transforms | — |
 
 <sub>⭐ flagship · ◆ companion package · test counts are from each repo's own suite.</sub>
@@ -120,6 +135,7 @@ Eight packages are archived on [Zenodo](https://zenodo.org/search?q=%22Felipe%20
 @software{rocha_integrity_code_series,
   author    = {Rocha, Felipe},
   title     = {Integrity Code Series — physics-first integrity simulators},
+  year      = {2026},
   publisher = {Zenodo},
   url       = {https://github.com/felipearocha},
   note      = {Concept DOIs resolve to the latest archived release of each package.}

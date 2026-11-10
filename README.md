@@ -48,8 +48,8 @@ Core domains, and the methods & standards that sit under each.
 | Domain | Methods &amp; Standards |
 |---|---|
 | **Asset Integrity &amp; RBI** | API 510 / 570 / 653 · API 571 (damage mechanisms) · API 580 / 581 (RBI) · API 579-1 / ASME FFS-1 · API RP 970 (CCDs) |
-| **Corrosion &amp; Electrochemistry** | CO₂ corrosion (NORSOK M-506) · galvanic (Butler–Volmer / Laplace) · CUI · NNpH-SCC (Chen–Sutherby–Xing) · erosion-corrosion (DNV-RP-O501 / ASTM G119) · H₂ service (B31.12 / NACE TM0316) |
-| **Physics-Informed ML (PIML)** | PINN surrogates · ODE-constrained training · KKT enforcement · gradient-boosted surrogates · Monte-Carlo uncertainty quantification |
+| **Corrosion &amp; Electrochemistry** | CO₂ corrosion (NORSOK M-506) · galvanic (Butler–Volmer / Laplace) · CUI · NNpH-SCC (Chen–Sutherby–Xing) · erosion-corrosion (DNV-RP-O501 / ASTM G119) · H₂ service (B31.12) |
+| **Physics-Informed ML (PIML)** | PINN surrogates · soft-penalty physics constraints · gradient-boosted surrogates · Monte-Carlo uncertainty quantification |
 | **Data Architecture &amp; Secure Automation** | ingestion-time validation · deterministic transforms · SHA-256 audit chains · CI/CD · reproducibility harnesses |
 
 <p align="center">
@@ -67,22 +67,22 @@ Core domains, and the methods & standards that sit under each.
 
 ## The Integrity Code Series
 
-Self-contained, physics-first integrity simulators. Each package documents its governing PDEs/ODEs in code with `[SOURCE: Author Year]` tags, benchmarks against analytical constants, layers Monte-Carlo/sensitivity over the deterministic core, and ships a `run_all.py` that reproduces every figure.
+Self-contained, physics-first integrity simulators. Each one documents its governing equations, flags its assumptions and states its limitations. The simulators ship a `run_all.py` that reproduces their figures, and most add hand-calc benchmarks and a Monte-Carlo or sensitivity layer over the deterministic core.
 
 > **Live status:** [integrity-code-series-dashboard](https://github.com/felipearocha/integrity-code-series-dashboard) — CI, releases and last-push, auto-refreshed monthly.
 
 | # | Repository | Domain | Tests | Key standards / methods | DOI |
 |---|---|---|:---:|---|---|
-| **11** ⭐ | [erosion-corrosion-multiphase](https://github.com/felipearocha/integrity-code-series-week11-erosion-corrosion-multiphase) | Coupled erosion-corrosion at a multiphase elbow | **466** | NORSOK M-506 · DNV-RP-O501 · ASTM G119 · API 571 / 579 | [10.5281/zenodo.21114866](https://doi.org/10.5281/zenodo.21114866) |
-| 10 | [nnph-scc](https://github.com/felipearocha/integrity-code-series-week10-nnph-scc) | Near-neutral-pH stress-corrosion cracking | 215 | Chen–Sutherby–Xing · BS 7910 · API 579 / 581 · Bayesian RBI | [10.5281/zenodo.20172241](https://doi.org/10.5281/zenodo.20172241) |
-| 9 | [cui](https://github.com/felipearocha/integrity-code-series-week9-cui) | Corrosion under insulation (thermo-hygro-electrochemical) | 154 | 3 coupled PDEs · Strang splitting · DFOS inverse | [10.5281/zenodo.20172508](https://doi.org/10.5281/zenodo.20172508) |
-| 8 | [creep-fatigue-heater](https://github.com/felipearocha/integrity-code-series-week8-creep-fatigue-heater) | Creep-fatigue in fired-heater tubes (9Cr-1Mo) | 324 | ASME III-5 · Norton/Omega · Coffin–Manson | [10.5281/zenodo.20172467](https://doi.org/10.5281/zenodo.20172467) |
-| 7 | [h2-lferw](https://github.com/felipearocha/integrity-code-series-week7-h2-lferw) | Hydrogen conversion of vintage LF-ERW pipe | 182 | B31.12 · NACE TM0316 · seam-weld statistics | [10.5281/zenodo.20172481](https://doi.org/10.5281/zenodo.20172481) |
-| 6 | [smartphone-galvanic](https://github.com/felipearocha/integrity-code-series-week6-smartphone-galvanic) | Galvanic corrosion in a thin electrolyte film | 38 | Laplace 2D · Butler–Volmer · oxide growth | [10.5281/zenodo.20172479](https://doi.org/10.5281/zenodo.20172479) |
-| 3 | [f1-lap-simulation](https://github.com/felipearocha/integrity-code-series-week3-f1-lap-simulation) | F1 lap dynamics (six coupled ODEs) | 9 | arc-length ODE integration · thermal grip window | — |
-| ⭐ | [synthetic-integrity-digital-twin-**piml**](https://github.com/felipearocha/synthetic-integrity-digital-twin-piml) | Physics-informed NN surrogate for an integrity digital twin | — | PINN · ODE-constrained · KKT enforcement | [10.5281/zenodo.20172483](https://doi.org/10.5281/zenodo.20172483) |
-| ◆ | [vibration-accelerated-corrosion](https://github.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation) | Vibration-accelerated corrosion at pipe supports | — | SDOF · stress-modified Butler–Volmer · Archard | [10.5281/zenodo.20172485](https://doi.org/10.5281/zenodo.20172485) |
-| ◆ | [integrity-data-foundation](https://github.com/felipearocha/integrity-data-foundation) | Engineering-first data validation baseline for RBI | — | schema validation · deterministic transforms | — |
+| **11** ⭐ | [erosion-corrosion-multiphase](https://github.com/felipearocha/integrity-code-series-week11-erosion-corrosion-multiphase) | Coupled erosion-corrosion at a multiphase elbow | **471** | NORSOK M-506 · DNV-RP-O501 · ASTM G119 · API 571 / 579 | [10.5281/zenodo.21114866](https://doi.org/10.5281/zenodo.21114866) |
+| 10 | [nnph-scc](https://github.com/felipearocha/integrity-code-series-week10-nnph-scc) | Near-neutral-pH stress-corrosion cracking | 219 | Chen–Sutherby–Xing · BS 7910 · API 579 · Bayesian inspection planning | [10.5281/zenodo.20172241](https://doi.org/10.5281/zenodo.20172241) |
+| 9 | [cui](https://github.com/felipearocha/integrity-code-series-week9-cui) | Corrosion under insulation (thermo-hygro-electrochemical) | 156 | 2 PDEs + Butler–Volmer · Strang splitting · DFOS inverse | [10.5281/zenodo.20172508](https://doi.org/10.5281/zenodo.20172508) |
+| 8 | [creep-fatigue-heater](https://github.com/felipearocha/integrity-code-series-week8-creep-fatigue-heater) | Creep-fatigue in fired-heater tubes (9Cr-1Mo) | 333 | ASME III-5 · Norton/Omega · Coffin–Manson | [10.5281/zenodo.20172467](https://doi.org/10.5281/zenodo.20172467) |
+| 7 | [h2-lferw](https://github.com/felipearocha/integrity-code-series-week7-h2-lferw) | Hydrogen conversion of vintage LF-ERW pipe | 191 | H diffusion · HA-FCG · B31.12-form MAOP | [10.5281/zenodo.20172481](https://doi.org/10.5281/zenodo.20172481) |
+| 6 | [smartphone-galvanic](https://github.com/felipearocha/integrity-code-series-week6-smartphone-galvanic) | Galvanic corrosion in a thin electrolyte film | 43 | Laplace 2D · Butler–Volmer · oxide growth | [10.5281/zenodo.20172479](https://doi.org/10.5281/zenodo.20172479) |
+| 3 | [f1-lap-simulation](https://github.com/felipearocha/integrity-code-series-week3-f1-lap-simulation) | F1 lap dynamics (six-state model) | 13 | arc-length ODE integration · thermal grip window | — |
+| ⭐ | [synthetic-integrity-digital-twin-**piml**](https://github.com/felipearocha/synthetic-integrity-digital-twin-piml) | Physics-informed NN surrogate for an integrity digital twin | 5 | PINN-style demo · Paris-type rollout · soft-penalty constraints | [10.5281/zenodo.20172483](https://doi.org/10.5281/zenodo.20172483) |
+| ◆ | [vibration-accelerated-corrosion](https://github.com/felipearocha/Vibration-Accelerated-Corrosion-Coupled-Mechano-Electrochemical-Simulation) | Vibration-accelerated corrosion at pipe supports | 31 | SDOF · stress-modified Butler–Volmer · Archard | [10.5281/zenodo.20172485](https://doi.org/10.5281/zenodo.20172485) |
+| ◆ | [integrity-data-foundation](https://github.com/felipearocha/integrity-data-foundation) | Engineering-first data validation baseline for RBI | 7 | rule-based validation · deterministic transforms | — |
 
 <sub>⭐ flagship · ◆ companion package · test counts are from each repo's own suite.</sub>
 
@@ -99,12 +99,12 @@ flowchart LR
     E --> F[Operational Decision Support]
 ```
 
-Every model in the series is built to the same standard of evidence:
+The series works to one standard of evidence:
 
-- **Traceable constants** — each equation and constant carries a `[SOURCE: Author Year]` tag with a tier (**T1** standard/paper · **T2** derived · **T3** practitioner). Modelling assumptions are labelled T3 and called out, never dressed as standards.
-- **Analytical QC gates** — hand-calc benchmarks against textbook constants run before the model does.
-- **Uncertainty, not point estimates** — a Monte-Carlo / sensitivity layer wraps every deterministic core.
-- **Reproducibility** — `run_all.py` regenerates every figure; releases are archived to Zenodo with permanent DOIs.
+- **Traceable constants** — constants cite a source or carry an `[ASSUMED]` flag, with a confidence tier (**T1** standard/paper · **T2** derived · **T3** practitioner). Modelling assumptions are called out, never dressed as standards.
+- **Analytical checks** — hand-calc benchmarks wherever a closed form exists.
+- **Uncertainty, not point estimates** — Monte-Carlo or sensitivity layers around the deterministic cores.
+- **Reproducibility** — `run_all.py` regenerates the figures; releases are archived to Zenodo with permanent DOIs.
 
 > *If an assumption is not written, it fails silently.*
 > *If data lineage is not explicit, the decision is not defensible.*
@@ -114,7 +114,7 @@ Every model in the series is built to the same standard of evidence:
 
 ## Cite &amp; Reproduce
 
-Each package is archived on [Zenodo](https://zenodo.org/search?q=%22Felipe%20Rocha%22) with a **concept DOI** (always resolves to the latest version) and a machine-readable `CITATION.cff` that drives GitHub's *"Cite this repository"* widget.
+Eight packages are archived on [Zenodo](https://zenodo.org/search?q=%22Felipe%20Rocha%22) with a **concept DOI** (always resolves to the latest version) and a machine-readable `CITATION.cff` that drives GitHub's *"Cite this repository"* widget.
 
 ```bibtex
 @software{rocha_integrity_code_series,
@@ -126,7 +126,7 @@ Each package is archived on [Zenodo](https://zenodo.org/search?q=%22Felipe%20Roc
 }
 ```
 
-To reproduce any package: `pip install -r requirements.txt && python run_all.py`.
+To reproduce a simulator: `pip install -r requirements.txt && python run_all.py`.
 
 ---
 
